@@ -1,6 +1,7 @@
 // Series of npm packages will use to give the server useful functionality
 var express = require("express");
 var bodyParser = require("body-parser");
+
 var app = express();
 
 // Sets an initial port for our listener
@@ -12,11 +13,8 @@ app.use(bodyParser.json());
 
 
 require("./app/routing/apiRoutes.js")(app);
-// var apiRoutes = require("./routes/apiRoutes")
-// console.log(apiRoutes); => [Function]
-// apiRoutes(app);
-require("./app/routing/htmlRoutes.js")(app);
 
+require("./app/routing/htmlRoutes.js")(app);
 
 // The below code effectively "starts" the server
 app.listen(PORT, function() {

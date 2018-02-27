@@ -11,12 +11,15 @@ module.exports = function(app) {
 	app.post("/api/friends", function(req, res){
 
 		friendsData.push(req.body);
+
 		//giving a varible to compare
 		var matchingDiff = 10000;
+
 		var user_result = 0;
 		var fd_result = 0;
+		//set the varible to hold a difference score between the user and the friends  
 		var diff = 0;
-
+		//have a varible to hold the new friend's data
 		var newFriend = {};
 
 		//uer total input scores
@@ -35,15 +38,17 @@ module.exports = function(app) {
 
 			//if the difference is less than matching difference, get the specific friend
 			if (diff < matchingDiff) {
-
+				//sign the specific friend to the new friend
 				newFriend = friendsData[n];
+				//sign the different score to the matching different varible
 				matchingDiff = diff;
 				fd_result = 0;
-			} 
+			} //if it is larger than the matchingDiff, set the friend's reslut score back to 0.
 			else {
 				fd_result = 0;
 			}
 		}
+		//send the new friend as an object to show the user's best match
 		res.json(newFriend);
 
 	});
