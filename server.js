@@ -7,15 +7,15 @@ var app = express();
 var PORT = process.env.PORT || 8000;
 
 // Sets up the Express app to handle data parsing
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-require("./routing/apiRoutes")(app);
+require("./app/routing/apiRoutes.js")(app);
 // var apiRoutes = require("./routes/apiRoutes")
 // console.log(apiRoutes); => [Function]
 // apiRoutes(app);
-require("./routing/htmlRoutes")(app);
+require("./app/routing/htmlRoutes.js")(app);
 
 
 // The below code effectively "starts" the server
