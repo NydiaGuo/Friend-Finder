@@ -23,4 +23,8 @@ This app is a compatibility-based "FriendFinder" application -- basically a dati
 - [path NPM package](https://www.npmjs.com/package/path)
 - [body parser json package](https://www.npmjs.com/package/body-parser-json)
 - [Heroku(Cloud platform)](https://signup.heroku.com/?c=70130000001xDpdAAE&gclid=CjwKCAiAoNTUBRBUEiwAWje2ltBEcml0hz10Clvml8F1NM2EuanwpjS1Svoo0q8RwkeZJO4iiAQbYxoCmvQQAvD_BwE)
+<<<<<<< HEAD
 - [Bootstrap(Front-edn framework)](https://getbootstrap.com/)
+=======
+- [Bootstrap(Front-edn framework)](https://getbootstrap.com/)
+>>>>>>> a52afed8af0c920bac18f4c68417a80890025db8
