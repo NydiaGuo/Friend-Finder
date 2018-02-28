@@ -16,3 +16,11 @@ This app is a compatibility-based "FriendFinder" application -- basically a dati
 
 ### SURVEY PAGE 
 ![surveypage](images/survey.gif)
+
+## Technologies used 
+- [Node.js](https://nodejs.org/en/)
+- [Express NPM package](https://www.npmjs.com/package/express)
+- [path NPM package](https://www.npmjs.com/package/path)
+- [body parser json package](https://www.npmjs.com/package/body-parser-json)
+- [Heroku(Cloud platform)](https://signup.heroku.com/?c=70130000001xDpdAAE&gclid=CjwKCAiAoNTUBRBUEiwAWje2ltBEcml0hz10Clvml8F1NM2EuanwpjS1Svoo0q8RwkeZJO4iiAQbYxoCmvQQAvD_BwE)
+- [Bootstrap(Front-edn framework)](https://getbootstrap.com/)
