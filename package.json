@@ -8,6 +8,8 @@
     "express": "^4.16.2"
   },
   "scripts": {
+    "postinstall":"bower install && grunt build",
+    "start": "nf start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {},
@@ -20,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/NydiaGuo/Friend-Finder/issues"
   },
+
   "homepage": "https://github.com/NydiaGuo/Friend-Finder#readme"
 }
