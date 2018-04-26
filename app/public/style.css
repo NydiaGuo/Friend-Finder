@@ -16,13 +16,13 @@ button {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: #f20c46;
+  background: #1457de;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 button:hover {
-  background: #3cb0fd;
+  background:  #f5f5f5;
   text-decoration: none;
 }
 
