@@ -8,8 +8,8 @@
     "express": "^4.16.2"
   },
   "scripts": {
-    "postinstall": "scripts/postinstall.sh",
-    "start": "nf start"
+"postinstall": "if [ $BUILD_ASSETS ]; then npm run build-assets; fi",
+"build-assets": "bower install && grunt build"
     // "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {},
