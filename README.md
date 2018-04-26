@@ -1,5 +1,5 @@
 # Friend-Finder
-This app is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from the users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+	This app is a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from the users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
 
 ## How to use it
 
@@ -12,7 +12,7 @@ This app is a compatibility-based "FriendFinder" application -- basically a dati
 ## Screen Shots
 
 ### HOME PAGE
-![homepage](images/homepage.png) 
+![homepage](images/home.gif) 
 
 ### SURVEY PAGE 
 ![surveypage](images/survey.gif)
