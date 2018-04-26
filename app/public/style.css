@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(57, 158, 255);
+	padding-top: 5%;
+}
+
+h1, h2, a {
+	color: white;
+}
+
+
+button {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f20c46;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+footer {
+	position: fixed;
+	padding-top: 20px;
+}
+
