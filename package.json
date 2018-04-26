@@ -8,7 +8,7 @@
     "express": "^4.16.2"
   },
   "scripts": {
-    "postinstall": "bower install && grunt build",
+    "postinstall": "scripts/postinstall.sh",
     "start": "nf start"
     // "test": "echo \"Error: no test specified\" && exit 1"
   },
